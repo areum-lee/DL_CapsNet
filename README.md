@@ -14,7 +14,7 @@ You have to construct suitable dataloader for your dataset. For example, we gene
 
 data
 
-Classes = ['c', 'g', 'h', 'o', 't']
+Classes = ['c', 'g', 'h']
 
     |---Train
         |---c  
@@ -23,9 +23,7 @@ Classes = ['c', 'g', 'h', 'o', 't']
 		
         |---h
 		
-		|---o
-		
-		|---t
+
         
     |---Validation
         |---c      
@@ -34,9 +32,7 @@ Classes = ['c', 'g', 'h', 'o', 't']
 		
         |---h
 		
-		|---o
-		
-		|---t
+
 		
     |---Test
         |---c        
@@ -45,9 +41,7 @@ Classes = ['c', 'g', 'h', 'o', 't']
 		
         |---h
 		
-		|---o
-		
-		|---t
+
 
 
 
